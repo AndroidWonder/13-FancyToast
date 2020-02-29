@@ -34,17 +34,9 @@ public class MainActivity extends Activity {
 				View layout = inflater.inflate(R.layout.custom_toast,
 						(ViewGroup) findViewById(R.id.custom_toast_layout_id));
 
-				// set image
-				ImageView image = (ImageView)layout.findViewById(R.id.image);
-				image.setImageResource(R.drawable.ic_launcher);
-
 				// set a message
 				TextView text = (TextView)layout.findViewById(R.id.text);
 				text.setText("Android forever");
-				
-				// set second image
-				ImageView image2 = (ImageView) layout.findViewById(R.id.image2);
-				image2.setImageResource(R.drawable.ic_launcher);
 
 				// Toast...
 				Toast toast = new Toast(getApplicationContext());
