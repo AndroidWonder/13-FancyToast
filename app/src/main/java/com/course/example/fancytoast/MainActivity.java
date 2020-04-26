@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,7 +38,7 @@ public class MainActivity extends Activity {
 				text.setText("Android forever");
 
 				// Toast...
-				Toast toast = new Toast(getApplicationContext());
+				Toast toast = new Toast(MainActivity.this);
 				toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
 				toast.setDuration(Toast.LENGTH_LONG);
 				toast.setView(layout);
