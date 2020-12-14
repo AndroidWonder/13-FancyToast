@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.course.example.fancytoast"
-        minSdkVersion 25
+        minSdkVersion 26
         targetSdkVersion 28
     }
 
